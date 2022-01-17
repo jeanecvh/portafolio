@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,100;1,300&family=Mountains+of+Christmas&display=swap');
+
+body {
+    background-image: url('../imagenes/fondos/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Alegreya Sans SC';
+    color: white;
+    font-size: x-large;
+    /*padding: 2%;*/
+}
+
+.navTemplate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Mountains of Christmas';
+    font-size: 50px;
+}
+.nav-menu {
+    list-style:none;
+    display: flex;
+}
+
+.nav-menu-item{
+    display: flex;
+    margin: 2%;
+}
+
+.icons ul{
+    list-style:none;
+    display: flex;
+}
+
+.icons ul li {
+    display: flex;
+    margin: 3%;
+}
+
+hr.nav-line {
+    border: 0;
+    height: 0;
+    width: 95%;
+    margin: -10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-left: 2.5%;
+}
