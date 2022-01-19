@@ -1,0 +1,37 @@
+.box-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+.home-template{
+    display: flex;
+    margin: 4% 2% 4% 2%;
+    background-color: #06040442;
+    /* width: max-content; */
+    padding: 5%;
+    align-items: center;
+    line-height: 60px;
+    text-align: center;
+    font-size: xx-large;
+    padding: 1%;
+    font-weight: bold;
+    width: 50%;
+    justify-content: space-around;
+    width: 50%;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    
+}
+.div-photo-home{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.photo-home{
+    width: 350px;
+    height: 450px;
+}

@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,100;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,100;1,300&family=Mountains+of+Christmas&display=swap');
 
-body {
-    background-image: url('../imagenes/fondos/fondo.jpg');
+* {
+    padding: 0;
+}
+body{
+    background-image: url('../imagenes/fondos/puno.png');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Alegreya Sans SC';
     color: white;
     font-size: x-large;
-    /*padding: 2%;*/
+    position: relative;
+    background-position: center center;
+    margin: 0;
+}
+.fondo1 {
+    background-color: rgb(0 0 0 / 25%);
+    margin: 0;
+    padding: 0;
 }
 
 .navTemplate{
@@ -19,12 +29,14 @@ body {
 }
 
 .logo{
-    font-family: 'Mountains of Christmas';
+    font-family: 'Alegreya Sans SC';
     font-size: 50px;
 }
 .nav-menu {
     list-style:none;
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .nav-menu-item{
@@ -51,3 +63,17 @@ hr.nav-line {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     margin-left: 2.5%;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+    background: rgb(44 59 115);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background:  rgb(21 24 33);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3f4141c7;
+    border-radius: 10px;
+  }
